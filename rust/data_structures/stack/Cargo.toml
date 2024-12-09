@@ -1,0 +1,23 @@
+[package]
+name = "stack"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "stack"
+path = "src/lib.rs"
+
+[[bin]]
+name = "stack"
+path = "src/main.rs"
+
+[[bin]]
+name = "par_checker1"
+path = "src/examples/par_checker1.rs"
+
+[[bin]]
+name = "par_checker2"
+path = "src/examples/par_checker2.rs"
+
+[dependencies]
+
