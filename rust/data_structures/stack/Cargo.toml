@@ -19,5 +19,18 @@ path = "src/examples/par_checker1.rs"
 name = "par_checker2"
 path = "src/examples/par_checker2.rs"
 
+[[bin]]
+name = "par_checker3"
+path = "src/examples/par_checker3.rs"
+
+
+[[bin]]
+name = "divide_by_two"
+path = "src/examples/divide_by_two.rs"
+
+[[bin]]
+name = "base_converter"
+path = "src/examples/base_converter.rs"
+
 [dependencies]
 
