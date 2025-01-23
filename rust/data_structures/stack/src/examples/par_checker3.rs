@@ -9,7 +9,7 @@ fn par_match(open: char, close: char) -> bool {
     opens.find(open) == closes.find(close)
 }
 
-fn par_checker2(par: &str) -> bool {
+pub fn par_checker3(par: &str) -> bool {
     let mut char_list = Vec::new();
     for c in par.chars() {
         char_list.push(c);
@@ -43,7 +43,7 @@ fn par_checker2(par: &str) -> bool {
 fn main() {
     let sa = "(2+3){func}[abc]";
     let sb = "(2+3)*(3-1";
-    let res1 = par_checker2(sa);
-    let res2 = par_checker2(sb);
+    let res1 = par_checker3(sa);
+    let res2 = par_checker3(sb);
     println!("{sa} balanced: {res1}, {sb} balanced: {res2}");
 }

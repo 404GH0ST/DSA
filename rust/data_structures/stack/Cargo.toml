@@ -32,5 +32,13 @@ path = "src/examples/divide_by_two.rs"
 name = "base_converter"
 path = "src/examples/base_converter.rs"
 
+[[bin]]
+name = "infix_to_postfix"
+path = "src/examples/infix_to_postfix.rs"
+
+[[bin]]
+name = "postfix_eval"
+path = "src/examples/postfix_eval.rs"
+
 [dependencies]
 
